@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-	
-	long long m,n ,a; scanf("%d %d %d",&m, &n, &a); 
-	printf("%d\n", ((m+a-1)/a)*((n+a-1)/a)) ;
 
+	
+	long long n, m,a; scanf("%I64d %I64d %I64d", &n, &m, &a);
+	printf("%I64d\n",((n+a-1)/a)*((m+a-1)/a) );
 	return 0;
 }
